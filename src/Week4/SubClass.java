@@ -8,9 +8,8 @@ package Week4;
  *
  * @author Edmundo Dela Cruz
  */
-public class Car2 {
-
-    String model = "Civic";
-    String make = "Honda";
-
+public class SubClass {
+    
+    
+    
 }

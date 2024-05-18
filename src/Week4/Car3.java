@@ -9,7 +9,7 @@ package Week4;
  * @author Edmundo Dela Cruz
  */
 public class Car3 {
-   
+
     String make;
     String model;
     int year;
@@ -49,4 +49,5 @@ public class Car3 {
                 + ""+model+
                 " Year: "+year);
     }
+
 }
