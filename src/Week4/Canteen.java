@@ -44,4 +44,5 @@ public class Canteen {
     public void Order(int studID){
         System.out.println("Student #"+studID+" Your order are "+rice+" \nUlam 1: "+ulam1+" \nUlam2 "+ulam2+" \nDessert: "+dessert);
     }
+
 }

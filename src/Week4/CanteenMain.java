@@ -14,7 +14,7 @@ public class CanteenMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            
+
         //Student order 1
         Canteen order1 = new Canteen();
         order1.Order(1);
@@ -34,6 +34,7 @@ public class CanteenMain {
         //Student order 5
         Canteen order5 = new Canteen("java rice", "Adobo", "Sioma","ice cream");
         order5.Order(5);
+
     }
     
 }
