@@ -1,0 +1,24 @@
+package week4;
+
+import javax.swing.JOptionPane;
+
+public class McDollibeeApp {
+
+    public static void main(String[] args) {
+
+        String choice = (String) JOptionPane.showInputDialog(
+                null,
+                "Select Screen Size",
+                "Screen Selection",
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                McDollibee.screenSizes.toArray(),
+                McDollibee.screenSizes.get(2)
+        );
+
+        if (choice == null) choice = "Normal Screen";
+
+        McDollibee app = new McDollibee(choice);
+        app.setVisible(true);
+    }
+}
